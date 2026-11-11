@@ -1,0 +1,9 @@
+# Terraform local state
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform.tfstate.lock.info
+
+# Python artifacts
+__pycache__/
+*.pyc
