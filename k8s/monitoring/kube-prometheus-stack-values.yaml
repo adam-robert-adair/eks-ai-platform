@@ -1,0 +1,12 @@
+prometheus:
+  prometheusSpec:
+    retention: 7d
+    serviceMonitorSelectorNilUsesHelmValues: false
+
+grafana:
+  adminUser: admin
+  service:
+    type: LoadBalancer
+
+alertmanager:
+  enabled: true

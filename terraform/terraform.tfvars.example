@@ -1,0 +1,7 @@
+aws_region          = "us-east-1"
+environment         = "dev"
+project_name        = "eks-ai-platform"
+github_owner        = "adam-robert-adair"
+github_repo         = "eks-ai-platform"
+budget_limit_usd    = "75"
+budget_alert_email  = "you@example.com"
